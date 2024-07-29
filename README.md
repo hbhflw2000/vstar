@@ -1,5 +1,9 @@
 # *V*\*: Guided Visual Search as a Core Mechanism in Multimodal LLMs
 
+代码解读： visual prompt, visual search
+
+
+
 ### [Paper](https://arxiv.org/abs/2312.14135) | [Project Page](https://vstar-seal.github.io/) | [Online Demo](https://huggingface.co/spaces/craigwu/vstar)
 
 
