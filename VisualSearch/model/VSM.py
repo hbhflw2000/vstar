@@ -215,6 +215,7 @@ class VSMForCausalLM(LlavaLlamaForCausalLM):
 		inference: bool = False,
 		**kwargs,
 	):
+		#计算image_embeddings,owlvit计算
 		image_embeddings = self.get_visual_embs(images)
 		batch_size = image_embeddings.shape[0]
 		assert batch_size == len(offset) - 1
